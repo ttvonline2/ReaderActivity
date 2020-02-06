@@ -11,6 +11,17 @@
         android:layout_height="wrap_content"
         android:text="QR Scanner"
         android:textSize="25dp"
+        android:id= "@+id/tv_header"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dataaaaa"
+        android:textSize="25dp"
+        android:id="@+id/tv_data"
+        android:layout_below="@+id/scan_btn"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_red_light"
         />
 
 <Button
